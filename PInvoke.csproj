@@ -155,6 +155,7 @@
     <Compile Include="Constants.cs" />
     <Compile Include="desktop\Advapi32.cs" />
     <Compile Include="desktop\CoreDll.cs" />
+    <Compile Include="desktop\Crypt32.cs" />
     <Compile Include="desktop\Kernel32.cs" />
     <Compile Include="desktop\User32.cs" />
     <Compile Include="desktop\WinMM.cs" />
