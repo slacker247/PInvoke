@@ -8,6 +8,9 @@ namespace PInvoke.desktop
 {
     public class User32
     {
+        [DllImport("user32.dll")]
+        public static extern IntPtr GetDC(IntPtr hWnd);
+
         /// <summary>
         /// The EnumChildWindows API
         /// </summary>
